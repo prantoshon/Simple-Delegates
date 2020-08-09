@@ -18,6 +18,7 @@ namespace Delegates
         }
         static void Main(string[] args)
         {
+            //
             Add obj = new Add(sum);
             Console.WriteLine(obj.Invoke(4,7));
             Console.Read();
